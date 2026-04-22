@@ -100,7 +100,7 @@ nav a {
 .description {
     margin-top: 30px;
     padding: 15px;
-    background: white;
+    background: linear-gradient(to right, #4facfe, #00c6ff);
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -167,8 +167,15 @@ button:hover {
 .back-btn{
     display: block;
     margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    background: linear-gradient(to right, #4facfe, #00c6ff);
+}
 /* for spacing of back btn from submit button*/
 .home-btn{
     display: block;
     margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    background: linear-gradient(to right, #4facfe, #00c6ff);
 }

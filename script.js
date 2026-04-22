@@ -12,8 +12,14 @@ function validateForm() {
         alert("Name and Email are required!");
         return false;
     }
-    return true;
+
+    alert("Thank you! Your response has been submitted."); // success message
+
+    document.getElementById("nepalForm").reset(); // clear form
+
+    return false; // stop page reload
 }
+
 
 // CREATOR SHOW/HIDE
 function showInfo(id) {

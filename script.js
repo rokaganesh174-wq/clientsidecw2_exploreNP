@@ -12,6 +12,10 @@ function validateForm() {
         alert("Name and Email are required!");
         return false;
     }
+    //the button that takes back to home page from creators and contacts
+function ganesh() {
+    window.location.href = "home.html";
+}
 
     alert("Thank you! Your response has been submitted."); // success message
 

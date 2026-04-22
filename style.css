@@ -1,0 +1,151 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* HOME PAGE */
+.home {
+    height: 100vh;
+    background: url('images/background.jpg') no-repeat center/cover;
+    color: white;
+    position: relative;
+}
+
+/* FACT BOX */
+.facts {
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+/* BOTTOM TEXT */
+.bottom-text {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color:aqua;
+}
+
+/* EXPLORE PAGE */
+.explore {
+    height: 100vh;
+    background: url('images/flag.png') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARDS */
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    padding: 15px;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* COMMON PAGES (mountain, etc) */
+.page {
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+/* IMAGE GRID */
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.grid img {
+    width: 180px;
+    height: 120px;
+    cursor: pointer;
+}
+
+/* DESCRIPTION BOX */
+.description {
+    margin-top: 30px;
+    padding: 15px;
+    background: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    border-radius: 8px;
+}
+/* FORM */
+form {
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* CREATORS */
+.creators {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.creator {
+    text-align: center;
+}
+
+.creator img {
+    width: 220px;
+    height: 220px;
+    object-fit:cover;
+    border-radius: 10px;
+    object-position: top;
+}
+.creator p {
+    text-align: left;
+    margin-top: 10px;
+    line-height: 1.6;
+}

@@ -163,3 +163,12 @@ button:hover {
     background: #555;
     transform: scale(1.05);
 }
+/*styling to create space between description box and back button*/ 
+.back-btn{
+    display: block;
+    margin: 30px auto;
+/* for spacing of back btn from submit button*/
+.home-btn{
+    display: block;
+    margin: 10px auto;
+}

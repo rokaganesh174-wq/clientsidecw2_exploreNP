@@ -150,3 +150,11 @@ input, textarea {
     margin-top: 10px;
     line-height: 1.6;
 }
+/*Transition controls the animation speed when a property changes, making the interaction smooth instead of instant.*/
+.card, .item img {
+    transition: 0.3s;
+}
+/*When user hovers(taes the mouse over the eleents) it grows slightly (zoom effect)*/
+.card:hover, .item img:hover {
+    transform: scale(1.05);
+}
